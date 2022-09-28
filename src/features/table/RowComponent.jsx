@@ -8,7 +8,7 @@ export const RowComponent = ({
       <tr>
         <td>{getDateAndMonth(date)}</td>
         <td style={{ margin: "0 1rem" }}>{app_id}</td>
-        <td>{clicks}</td>
+        <td>{clicks} hello</td>
         <td>{requests}</td>
         <td>{responses}</td>
         <td>{impressions}</td>
